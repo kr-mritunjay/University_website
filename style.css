@@ -29,6 +29,7 @@ nav img{
 .nav_links{
   flex:0.34;
   text-align: right;
+
 }
 .nav_links ul{
   display: flex;
