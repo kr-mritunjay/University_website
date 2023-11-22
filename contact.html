@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <!-- above met tag help us in making responsive website -->
+  <title>University</title>
+</head>
+
+<body>
+
+  <!-- first page (home section) -->
+  <section class="sub_home">
+    <nav>
+      <a href="#"><img src="images/logo.png"></a>
+      <div class="nav_links" id="navlinks">
+        <i class="fa fa-times" onclick="hidemenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="courses.html">COURSE</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showmenu()"></i>
+    </nav>
+    <h1>Contact US</h1>
+  </section>
+  <!-- home section (first page) ends-->
+
+  <!-- contact section -->
+  <section class="location">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d236401.01159719282!2d77.47273977289845!3d12.953275848903575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1700650132647!5m2!1sen!2sin"
+      width="1350" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+  <section class="conatact_us">
+    <div class="row">
+      <div class="contact_col">
+        <div>
+          <i class="fa fa-home"></i>
+          <span>
+            <h5>XYZ Road, ABC Building</h5>
+            <p>Bangalore, Karnataka, IN</p>
+          </span>
+        </div>
+        <div>
+          <i class="fa fa-phone"></i>
+          <span>
+            <h5>+1 0123456789</h5>
+            <p>Monday to Saturday, 10A.M. to 6P.M</p>
+          </span>
+        </div>
+        <div>
+          <i class="fa fa-envelope-o"></i>
+          <span>
+            <h5>info@dummy.com</h5>
+            <p>Email us your query</p>
+          </span>
+        </div>
+
+
+
+      </div>
+      <div class="contact_col">
+        <form action="form_handler.php" method="post">
+          <input type="text" name="name" placeholder="Enter your Name" required>
+          <input type="email" name="email" placeholder="Enter your Email Address" required>
+          <input type="text" name="subject" placeholder="Enter your subject" required>
+          <textarea rows="10" name="message" placeholder="Message" required></textarea>
+          <button type="submit" class="btn">Send message</button>
+        </form>
+      </div>
+
+
+
+    </div>
+
+  </section>
+
+
+
+
+
+
+
+
+
+  <!-- footer -->
+
+  <section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore cumque labore tempora amet voluptates
+      doloremque <br> officia inventore quod voluptatem quis assumenda unde blanditiis optio illo, rerum excepturi
+      necessitatibus consequatur suscipit!</p>
+    <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-linkedin"></i>
+    </div>
+
+  </section>
+</body>
+
+</html>
